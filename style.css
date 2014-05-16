@@ -299,10 +299,12 @@ ul.works_ul li {
 }
 
 ul.works_ul li  img {
-    height: auto;
-    width: 101%;
-	vertical-align:middle;
-	cursor: pointer;
+ 	width: 33.33%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	vertical-align: top;
 }
 .works{
 	margin: 0 auto;
