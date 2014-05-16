@@ -286,6 +286,8 @@ clear: both;
 #portfolio .nav1{
 	position: relative;
 	left: 35%;
+	width: 350px;
+
 }
 ul.works_ul li {
     display: inline-block;
