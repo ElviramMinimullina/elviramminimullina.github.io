@@ -4,7 +4,7 @@ body{line-height:1;color:black;background:#fff;min-width: 1440px;width:100%;posi
 ol,ul{list-style:none}
 table{border-collapse:separate;border-spacing:0}
 caption,th,td{text-align:left;font-weight:normal}
-body{margin:0 auto;color:#444;font:14px/28px "Helvetica Neue", Arial, sans-serif;text-shadow:0px 1px 0px rgba(255,255,255,0.3);-webkit-font-smoothing:antialiased;min-width:100%;max-width:100%; width:100%;background:#fff;}
+body{margin:0 auto;color:#444;font:14px/28px "Helvetica Neue", Arial, sans-serif;text-shadow:0px 1px 0px rgba(255,255,255,0.3);-webkit-font-smoothing:antialiased;max-width:100%; width:100%;background:#fff;}
 h1{font-size: 38px;	text-align: center; font-family: "oxygenlight";letter-spacing: 4px;}
 h2{font-family: "oxygenlight";	text-transform: uppercase;letter-spacing: 2px;font-size: 22px;	line-height: 18px;}
 h3{	font-family: "ralewayregular";text-transform: uppercase;font-size: 12px;letter-spacing: 2px;	line-height: 26px;}
@@ -70,11 +70,10 @@ p{font-size: 18px;	;text-align: center;	margin: 30px auto;font-family: "ralewayr
 }
 .nav {
 	position: absolute;
-	left: 61%;
 	top: 60px;
 	right: 0;
 	font-size: 15px;
-	width: 640px;
+	width: 600px;
 }
 .nav ul, .nav1 ul {
 	float: left;
@@ -290,16 +289,15 @@ clear: both;
 
 }
 ul.works_ul li {
-    display: inline-block;
+    float: left;
     margin: 0;
     padding: 0;
     position: relative;
     vertical-align: top;
-    width: 33%;
-}
+ }
 
 ul.works_ul li  img {
- 	width: 33.33%;
+	width: 480px;
 	float: left;
 	margin: 0;
 	padding: 0;
